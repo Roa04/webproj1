@@ -862,3 +862,42 @@ button.learn_more {
       width: calc(50% - 20px);
     }
   }
+@media only screen and (max-width: 480px) {
+    .our-blog .container .row .bloger {
+      width: 100%;
+      margin: 10px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 1200px) {
+    .footer .row .footer_about,
+    .footer .row .quick-links,
+    .footer .row .contact-info,
+    .footer .row .follow-us,
+    .footer .row .news-letter {
+      width: 33%;
+      height: 14em;
+      margin-bottom: 0.5em;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .footer .row .footer_about,
+    .footer .row .quick-links,
+    .footer .row .contact-info,
+    .footer .row .follow-us,
+    .footer .row .news-letter {
+      width: 100%;
+      height: 10.5em;
+      margin-bottom: 0.5em;
+    }}
+    @media (max-width: 768px) {
+        .digital_book {
+          padding: 8em 3em;
+        }
+      }
+      @media (max-width: 768px) and (max-width: 530px) {
+        .digital_book {
+          padding: 9em 2em;
+        }
+      }
