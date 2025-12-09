@@ -824,3 +824,41 @@ button.learn_more {
     border-color: #089da1;
   }
 
+ @media only screen and (max-width: 768px) {
+    nav .container {
+      width: 90%;
+    }
+    nav .container .nav-logo {
+      height: 4vh;
+    }
+    nav .container .nav-links ul {
+      gap: 0.7rem;
+    }
+    nav .container .nav-icons {
+      gap: 0.25rem;
+    }
+    nav .container .nav-links ul a {
+      font-size: 0.8em;
+    }
+  }
+
+  @media only screen and(max-width: 600px) {
+    nav .container {
+      width: 95%;
+    }
+    nav .container .nav-links ul {
+      display: none;
+    }
+    nav .container .nav-icons {
+      gap: 0.75rem;
+    }
+    nav .container .nav-icons .nav_list {
+      display: block;
+    }
+  }
+
+  @media only screen and (max-width: 1204px) {
+    .our-blog .container .row .bloger {
+      width: calc(50% - 20px);
+    }
+  }
